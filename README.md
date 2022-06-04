@@ -1,6 +1,7 @@
 # React Shaper Demo
 
-Example of starter application created by React Shaper.
+This project was bootstrapped with
+[React Shaper](https://github.com/code-shaper/react-shaper).
 
 ![Screen Shot](assets/screenshot.png)
 
@@ -13,7 +14,7 @@ Execute the following commands to run the app.
 npm install
 
 # Run the app
-npm run dev
+npm start
 ```
 
 Now point your browser to http://localhost:3000.
@@ -27,8 +28,8 @@ npm run storybook
 ## Running Unit Tests
 
 ```shell
-npm run test # interactive mode
-npm run test:coverage # non-interactive mode with coverage information
+npm run test # run tests with code coverage
+npm run test:watch # run tests in interactive mode
 ```
 
 ## Running End-to-End Tests
